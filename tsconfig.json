@@ -17,10 +17,9 @@
     "isolatedModules": true,
     "jsx": "react-jsx",
     "incremental": true,
-   "paths": {
-  "@/*": ["./app/*"],
-  "@/lib/*": ["./app/lib/*"]
-}
+    "paths": {
+      "@/*": ["./app/*"]
+    },
     "plugins": [
       {
         "name": "next"
