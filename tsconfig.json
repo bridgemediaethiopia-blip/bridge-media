@@ -17,8 +17,14 @@
     "isolatedModules": true,
     "jsx": "react-jsx",
     "incremental": true,
+    "baseUrl": ".",
     "paths": {
-      "@/*": ["./app/*"]
+      "@/*": [
+        "./*"
+      ],
+      "@/lib/*": [
+        "./lib/*"
+      ]
     },
     "plugins": [
       {
